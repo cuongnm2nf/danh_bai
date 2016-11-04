@@ -1,0 +1,18 @@
+{
+  "appenders": [
+    {
+      "type": "console"
+    },
+    {
+      "type": "dateFile", 
+      "filename": "daifugo/logs/swc.log",
+      "pattern": "-yyyy-MM-dd",
+      "alwaysIncludePattern": true
+    }
+  ],
+  "replaceConsole": true,
+  "levels": {
+	"[default]": "TRACE",
+	"[console]": "TRACE"
+  }
+}

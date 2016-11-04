@@ -1,0 +1,1454 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@2.15.9
+3 info using node@v4.6.0
+4 verbose readDependencies loading dependencies from C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\package.json
+5 verbose install where, deps [ 'C:\\Users\\anhma\\Downloads\\ProjectDaifugo\\ProjectDaifugo',
+5 verbose install   [ 'express',
+5 verbose install     'socket.io',
+5 verbose install     'connect-redis',
+5 verbose install     'imagemagick',
+5 verbose install     'redis',
+5 verbose install     'lazy',
+5 verbose install     'pg',
+5 verbose install     'everyauth',
+5 verbose install     'jade',
+5 verbose install     'cookie',
+5 verbose install     'date-utils',
+5 verbose install     'ejs',
+5 verbose install     'stylus',
+5 verbose install     'express-device',
+5 verbose install     'request',
+5 verbose install     'fs-extra',
+5 verbose install     'log4js',
+5 verbose install     'look' ] ]
+6 verbose install where, peers [ 'C:\\Users\\anhma\\Downloads\\ProjectDaifugo\\ProjectDaifugo',
+6 verbose install   [] ]
+7 verbose installManyTop reading for lifecycle C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\package.json
+8 info preinstall CardGames@0.0.1
+9 verbose installManyTop reading scoped package data from C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\connect-redis\package.json
+10 verbose installManyTop reading scoped package data from C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\cookie\package.json
+11 verbose installManyTop reading scoped package data from C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\date-utils\package.json
+12 verbose installManyTop reading scoped package data from C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\ejs\package.json
+13 verbose installManyTop reading scoped package data from C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\everyauth\package.json
+14 verbose installManyTop reading scoped package data from C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\express\package.json
+15 verbose installManyTop reading scoped package data from C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\express-device\package.json
+16 verbose installManyTop reading scoped package data from C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\fs-extra\package.json
+17 verbose installManyTop reading scoped package data from C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\imagemagick\package.json
+18 verbose installManyTop reading scoped package data from C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\jade\package.json
+19 verbose installManyTop reading scoped package data from C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\lazy\package.json
+20 verbose installManyTop reading scoped package data from C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\log4js\package.json
+21 verbose installManyTop reading scoped package data from C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\look\package.json
+22 verbose installManyTop reading scoped package data from C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\redis\package.json
+23 verbose installManyTop reading scoped package data from C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\request\package.json
+24 verbose installManyTop reading scoped package data from C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\socket.io\package.json
+25 verbose installManyTop reading scoped package data from C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\stylus\package.json
+26 info package.json connect-redis@1.4.5 No repository field.
+27 info package.json connect-redis@1.4.5 No license field.
+28 info package.json date-utils@1.2.13 license should be a valid SPDX license expression
+29 info package.json ejs@0.8.4 No license field.
+30 info package.json express@3.3.1 No license field.
+31 info package.json lazy@1.0.11 license should be a valid SPDX license expression
+32 info package.json look@0.1.3 No license field.
+33 info package.json redis@0.8.4 No license field.
+34 info package.json request@2.30.0 No license field.
+35 info package.json stylus@0.33.1 No license field.
+36 info package.json cookie@0.1.0 No license field.
+37 info package.json everyauth@0.4.5 No license field.
+38 info package.json imagemagick@0.1.3 No license field.
+39 info package.json log4js@0.6.12 No license field.
+40 info package.json socket.io@0.9.16 No license field.
+41 info package.json jade@0.32.0 No license field.
+42 verbose readDependencies loading dependencies from C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\package.json
+43 verbose targetResolver reading package data from C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\connect-redis\package.json
+44 verbose targetResolver reading package data from C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\cookie\package.json
+45 verbose targetResolver reading package data from C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\date-utils\package.json
+46 verbose targetResolver reading package data from C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\ejs\package.json
+47 verbose targetResolver reading package data from C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\everyauth\package.json
+48 verbose targetResolver reading package data from C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\express\package.json
+49 verbose targetResolver reading package data from C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\express-device\package.json
+50 verbose targetResolver reading package data from C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\fs-extra\package.json
+51 verbose targetResolver reading package data from C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\imagemagick\package.json
+52 verbose targetResolver reading package data from C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\jade\package.json
+53 verbose targetResolver reading package data from C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\lazy\package.json
+54 verbose targetResolver reading package data from C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\log4js\package.json
+55 verbose targetResolver reading package data from C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\look\package.json
+56 verbose targetResolver reading package data from C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\redis\package.json
+57 verbose targetResolver reading package data from C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\request\package.json
+58 verbose targetResolver reading package data from C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\socket.io\package.json
+59 verbose targetResolver reading package data from C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\stylus\package.json
+60 verbose targetResolver reading package data from C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\.bin\express\package.json
+61 verbose targetResolver reading package data from C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\.bin\express.cmd\package.json
+62 verbose targetResolver reading package data from C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\.bin\jade\package.json
+63 verbose targetResolver reading package data from C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\.bin\jade.cmd\package.json
+64 verbose targetResolver reading package data from C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\.bin\stylus\package.json
+65 verbose targetResolver reading package data from C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\.bin\stylus.cmd\package.json
+66 verbose already installed skipping everyauth@0.4.5 C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo
+67 verbose already installed skipping jade@0.32.0 C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo
+68 verbose already installed skipping cookie@0.1.0 C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo
+69 verbose already installed skipping date-utils@1.2.13 C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo
+70 verbose already installed skipping ejs@0.8.4 C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo
+71 verbose already installed skipping stylus@0.33.1 C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo
+72 verbose already installed skipping express-device@ C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo
+73 verbose already installed skipping request@2.30.0 C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo
+74 verbose already installed skipping fs-extra@ C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo
+75 verbose already installed skipping log4js@0.6.12 C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo
+76 verbose already installed skipping look@ C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo
+77 verbose already installed skipping express@3.3.1 C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo
+78 verbose already installed skipping socket.io@0.9.16 C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo
+79 verbose already installed skipping connect-redis@1.4.5 C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo
+80 verbose already installed skipping imagemagick@0.1.3 C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo
+81 verbose already installed skipping redis@0.8.4 C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo
+82 verbose already installed skipping lazy@1.0.11 C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo
+83 silly cache add args [ 'pg@2.0.0', null ]
+84 verbose cache add spec pg@2.0.0
+85 silly cache add parsed spec Result {
+85 silly cache add   raw: 'pg@2.0.0',
+85 silly cache add   scope: null,
+85 silly cache add   name: 'pg',
+85 silly cache add   rawSpec: '2.0.0',
+85 silly cache add   spec: '2.0.0',
+85 silly cache add   type: 'version' }
+86 silly addNamed pg@2.0.0
+87 verbose addNamed "2.0.0" is a plain semver version for pg
+88 silly mapToRegistry name pg
+89 silly mapToRegistry using default registry
+90 silly mapToRegistry registry https://registry.npmjs.org/
+91 silly mapToRegistry data Result {
+91 silly mapToRegistry   raw: 'pg',
+91 silly mapToRegistry   scope: null,
+91 silly mapToRegistry   name: 'pg',
+91 silly mapToRegistry   rawSpec: '',
+91 silly mapToRegistry   spec: 'latest',
+91 silly mapToRegistry   type: 'tag' }
+92 silly mapToRegistry uri https://registry.npmjs.org/pg
+93 verbose addNameVersion registry:https://registry.npmjs.org/pg not in flight; fetching
+94 verbose request uri https://registry.npmjs.org/pg
+95 verbose request no auth needed
+96 info attempt registry request try #1 at 4:45:58 PM
+97 verbose request id 4c9d8924a148be4f
+98 verbose etag "B8SSI7BAFXXP1JBC8CXQC7BCZ"
+99 http request GET https://registry.npmjs.org/pg
+100 http 304 https://registry.npmjs.org/pg
+101 verbose headers { date: 'Thu, 03 Nov 2016 09:45:55 GMT',
+101 verbose headers   via: '1.1 varnish',
+101 verbose headers   'cache-control': 'max-age=300',
+101 verbose headers   etag: '"B8SSI7BAFXXP1JBC8CXQC7BCZ"',
+101 verbose headers   age: '32',
+101 verbose headers   connection: 'keep-alive',
+101 verbose headers   'x-served-by': 'cache-hkg6822-HKG',
+101 verbose headers   'x-cache': 'HIT',
+101 verbose headers   'x-cache-hits': '1',
+101 verbose headers   'x-timer': 'S1478166355.090409,VS0,VE0',
+101 verbose headers   vary: 'Accept-Encoding' }
+102 silly get cb [ 304,
+102 silly get   { date: 'Thu, 03 Nov 2016 09:45:55 GMT',
+102 silly get     via: '1.1 varnish',
+102 silly get     'cache-control': 'max-age=300',
+102 silly get     etag: '"B8SSI7BAFXXP1JBC8CXQC7BCZ"',
+102 silly get     age: '32',
+102 silly get     connection: 'keep-alive',
+102 silly get     'x-served-by': 'cache-hkg6822-HKG',
+102 silly get     'x-cache': 'HIT',
+102 silly get     'x-cache-hits': '1',
+102 silly get     'x-timer': 'S1478166355.090409,VS0,VE0',
+102 silly get     vary: 'Accept-Encoding' } ]
+103 verbose etag https://registry.npmjs.org/pg from cache
+104 verbose get saving pg to C:\Users\anhma\AppData\Roaming\npm-cache\registry.npmjs.org\pg\.cache.json
+105 verbose correctMkdir C:\Users\anhma\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+106 silly cache afterAdd pg@2.0.0
+107 verbose afterAdd C:\Users\anhma\AppData\Roaming\npm-cache\pg\2.0.0\package\package.json not in flight; writing
+108 verbose correctMkdir C:\Users\anhma\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+109 verbose afterAdd C:\Users\anhma\AppData\Roaming\npm-cache\pg\2.0.0\package\package.json written
+110 silly install resolved [ { name: 'pg',
+110 silly install resolved     version: '2.0.0',
+110 silly install resolved     description: 'PostgreSQL client - pure javascript & libpq with the same API',
+110 silly install resolved     keywords: [ 'postgres', 'pg', 'libpq', 'postgre', 'database', 'rdbms' ],
+110 silly install resolved     homepage: 'http://github.com/brianc/node-postgres',
+110 silly install resolved     repository:
+110 silly install resolved      { type: 'git',
+110 silly install resolved        url: 'git://github.com/brianc/node-postgres.git' },
+110 silly install resolved     author: { name: 'Brian Carlson', email: 'brian.m.carlson@gmail.com' },
+110 silly install resolved     main: './lib',
+110 silly install resolved     dependencies:
+110 silly install resolved      { 'generic-pool': '2.0.3',
+110 silly install resolved        'buffer-writer': '1.0.0',
+110 silly install resolved        ref: '0.1.3' },
+110 silly install resolved     devDependencies: { jshint: '1.1.0', semver: '~1.1.4' },
+110 silly install resolved     scripts:
+110 silly install resolved      { test: 'make test-travis connectionString=pg://postgres@localhost:5432/postgres',
+110 silly install resolved        install: 'node-gyp rebuild || (exit 0)' },
+110 silly install resolved     engines: { node: '>= 0.8.0' },
+110 silly install resolved     _id: 'pg@2.0.0',
+110 silly install resolved     dist:
+110 silly install resolved      { shasum: '6db074729a9cda071436dc2c696e93b0f30d129b',
+110 silly install resolved        tarball: 'https://registry.npmjs.org/pg/-/pg-2.0.0.tgz' },
+110 silly install resolved     _from: 'pg@2.0.0',
+110 silly install resolved     _npmVersion: '1.2.17',
+110 silly install resolved     _npmUser: { name: 'brianc', email: 'brian.m.carlson@gmail.com' },
+110 silly install resolved     maintainers: [ [Object] ],
+110 silly install resolved     directories: {},
+110 silly install resolved     _shasum: '6db074729a9cda071436dc2c696e93b0f30d129b',
+110 silly install resolved     _resolved: 'https://registry.npmjs.org/pg/-/pg-2.0.0.tgz',
+110 silly install resolved     bugs: { url: 'https://github.com/brianc/node-postgres/issues' },
+110 silly install resolved     readme: 'ERROR: No README data found!' } ]
+111 info install pg@2.0.0 into C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo
+112 info installOne pg@2.0.0
+113 verbose installOne of pg to C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo not in flight; installing
+114 verbose correctMkdir C:\Users\anhma\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+115 verbose lock using C:\Users\anhma\AppData\Roaming\npm-cache\_locks\pg-c52a8c572bb3d8b7.lock for C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg
+116 silly install write writing pg 2.0.0 to C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg
+117 verbose unbuild node_modules\pg
+118 silly gentlyRm C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg is being purged from base C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo
+119 verbose gentlyRm don't care about contents; nuking C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg
+120 verbose tar unpack C:\Users\anhma\AppData\Roaming\npm-cache\pg\2.0.0\package.tgz
+121 verbose tar unpacking to C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg
+122 silly gentlyRm C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg is being purged
+123 verbose gentlyRm don't care about contents; nuking C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg
+124 silly gunzTarPerm modes [ '777', '666' ]
+125 silly gunzTarPerm extractEntry package.json
+126 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+127 silly gunzTarPerm extractEntry .npmignore
+128 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+129 silly gunzTarPerm extractEntry README.md
+130 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+131 silly gunzTarPerm extractEntry binding.gyp
+132 silly gunzTarPerm modified mode [ 'binding.gyp', 420, 438 ]
+133 silly gunzTarPerm extractEntry NEWS.md
+134 silly gunzTarPerm modified mode [ 'NEWS.md', 420, 438 ]
+135 silly gunzTarPerm extractEntry .jshintrc
+136 silly gunzTarPerm modified mode [ '.jshintrc', 420, 438 ]
+137 silly gunzTarPerm extractEntry benchmark/index.js
+138 silly gunzTarPerm modified mode [ 'benchmark/index.js', 420, 438 ]
+139 silly gunzTarPerm extractEntry benchmark/prepared-statement-parsing.js
+140 silly gunzTarPerm modified mode [ 'benchmark/prepared-statement-parsing.js', 420, 438 ]
+141 silly gunzTarPerm extractEntry benchmark/simple-query-parsing.js
+142 silly gunzTarPerm modified mode [ 'benchmark/simple-query-parsing.js', 420, 438 ]
+143 silly gunzTarPerm extractEntry benchmark/4e822a1.txt
+144 silly gunzTarPerm modified mode [ 'benchmark/4e822a1.txt', 420, 438 ]
+145 silly gunzTarPerm extractEntry benchmark/835f71a76f.txt
+146 silly gunzTarPerm modified mode [ 'benchmark/835f71a76f.txt', 420, 438 ]
+147 silly gunzTarPerm extractEntry benchmark/df766c913.txt
+148 silly gunzTarPerm modified mode [ 'benchmark/df766c913.txt', 420, 438 ]
+149 silly gunzTarPerm extractEntry .travis.yml
+150 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+151 silly gunzTarPerm extractEntry lib/client.js
+152 silly gunzTarPerm modified mode [ 'lib/client.js', 420, 438 ]
+153 silly gunzTarPerm extractEntry lib/connection.js
+154 silly gunzTarPerm modified mode [ 'lib/connection.js', 420, 438 ]
+155 silly gunzTarPerm extractEntry lib/copystream.js
+156 silly gunzTarPerm modified mode [ 'lib/copystream.js', 420, 438 ]
+157 silly gunzTarPerm extractEntry lib/defaults.js
+158 silly gunzTarPerm modified mode [ 'lib/defaults.js', 420, 438 ]
+159 silly gunzTarPerm extractEntry lib/index.js
+160 silly gunzTarPerm modified mode [ 'lib/index.js', 420, 438 ]
+161 silly gunzTarPerm extractEntry lib/connection-parameters.js
+162 silly gunzTarPerm modified mode [ 'lib/connection-parameters.js', 420, 438 ]
+163 silly gunzTarPerm extractEntry lib/pool.js
+164 silly gunzTarPerm modified mode [ 'lib/pool.js', 420, 438 ]
+165 silly gunzTarPerm extractEntry lib/query.js
+166 silly gunzTarPerm modified mode [ 'lib/query.js', 420, 438 ]
+167 silly gunzTarPerm extractEntry lib/result.js
+168 silly gunzTarPerm modified mode [ 'lib/result.js', 420, 438 ]
+169 silly gunzTarPerm extractEntry lib/utils.js
+170 silly gunzTarPerm modified mode [ 'lib/utils.js', 420, 438 ]
+171 silly gunzTarPerm extractEntry lib/types/arrayParser.js
+172 silly gunzTarPerm modified mode [ 'lib/types/arrayParser.js', 420, 438 ]
+173 silly gunzTarPerm extractEntry lib/types/binaryParsers.js
+174 silly gunzTarPerm modified mode [ 'lib/types/binaryParsers.js', 420, 438 ]
+175 silly gunzTarPerm extractEntry lib/types/index.js
+176 silly gunzTarPerm modified mode [ 'lib/types/index.js', 420, 438 ]
+177 silly gunzTarPerm extractEntry lib/types/textParsers.js
+178 silly gunzTarPerm modified mode [ 'lib/types/textParsers.js', 420, 438 ]
+179 silly gunzTarPerm extractEntry lib/native/index.js
+180 silly gunzTarPerm modified mode [ 'lib/native/index.js', 420, 438 ]
+181 silly gunzTarPerm extractEntry lib/native/query.js
+182 silly gunzTarPerm modified mode [ 'lib/native/query.js', 420, 438 ]
+183 silly gunzTarPerm extractEntry Makefile
+184 silly gunzTarPerm modified mode [ 'Makefile', 420, 438 ]
+185 silly gunzTarPerm extractEntry script/create-test-tables.js
+186 silly gunzTarPerm modified mode [ 'script/create-test-tables.js', 420, 438 ]
+187 silly gunzTarPerm extractEntry script/dump-db-types.js
+188 silly gunzTarPerm modified mode [ 'script/dump-db-types.js', 420, 438 ]
+189 silly gunzTarPerm extractEntry script/list-db-types.js
+190 silly gunzTarPerm modified mode [ 'script/list-db-types.js', 420, 438 ]
+191 silly gunzTarPerm extractEntry script/test-connection.js
+192 silly gunzTarPerm modified mode [ 'script/test-connection.js', 420, 438 ]
+193 silly gunzTarPerm extractEntry script/travis-pg-9.2-install.sh
+194 silly gunzTarPerm modified mode [ 'script/travis-pg-9.2-install.sh', 493, 511 ]
+195 silly gunzTarPerm extractEntry src/binding.cc
+196 silly gunzTarPerm modified mode [ 'src/binding.cc', 420, 438 ]
+197 silly gunzTarPerm extractEntry test/buffer-list.js
+198 silly gunzTarPerm modified mode [ 'test/buffer-list.js', 420, 438 ]
+199 silly gunzTarPerm extractEntry test/cli.js
+200 silly gunzTarPerm modified mode [ 'test/cli.js', 420, 438 ]
+201 silly gunzTarPerm extractEntry test/test-buffers.js
+202 silly gunzTarPerm modified mode [ 'test/test-buffers.js', 420, 438 ]
+203 silly gunzTarPerm extractEntry test/test-helper.js
+204 silly gunzTarPerm modified mode [ 'test/test-helper.js', 420, 438 ]
+205 silly gunzTarPerm extractEntry test/integration/test-helper.js
+206 silly gunzTarPerm modified mode [ 'test/integration/test-helper.js', 420, 438 ]
+207 silly gunzTarPerm extractEntry test/integration/client/api-tests.js
+208 silly gunzTarPerm modified mode [ 'test/integration/client/api-tests.js', 420, 438 ]
+209 silly gunzTarPerm extractEntry test/integration/client/huge-numeric-tests.js
+210 silly gunzTarPerm modified mode [ 'test/integration/client/huge-numeric-tests.js', 420, 438 ]
+211 silly gunzTarPerm extractEntry test/integration/client/json-type-parsing-tests.js
+212 silly gunzTarPerm modified mode [ 'test/integration/client/json-type-parsing-tests.js',
+212 silly gunzTarPerm   420,
+212 silly gunzTarPerm   438 ]
+213 silly gunzTarPerm extractEntry test/integration/client/no-data-tests.js
+214 silly gunzTarPerm modified mode [ 'test/integration/client/no-data-tests.js', 420, 438 ]
+215 silly gunzTarPerm extractEntry test/integration/client/error-handling-tests.js
+216 silly gunzTarPerm modified mode [ 'test/integration/client/error-handling-tests.js', 420, 438 ]
+217 silly gunzTarPerm extractEntry test/integration/client/notice-tests.js
+218 silly gunzTarPerm modified mode [ 'test/integration/client/notice-tests.js', 420, 438 ]
+219 silly gunzTarPerm extractEntry test/integration/client/prepared-statement-tests.js
+220 silly gunzTarPerm modified mode [ 'test/integration/client/prepared-statement-tests.js',
+220 silly gunzTarPerm   420,
+220 silly gunzTarPerm   438 ]
+221 silly gunzTarPerm extractEntry test/integration/client/query-callback-error-tests.js
+222 silly gunzTarPerm modified mode [ 'test/integration/client/query-callback-error-tests.js',
+222 silly gunzTarPerm   420,
+222 silly gunzTarPerm   438 ]
+223 silly gunzTarPerm extractEntry test/integration/client/query-error-handling-tests.js
+224 silly gunzTarPerm modified mode [ 'test/integration/client/query-error-handling-tests.js',
+224 silly gunzTarPerm   420,
+224 silly gunzTarPerm   438 ]
+225 silly gunzTarPerm extractEntry test/integration/client/result-metadata-tests.js
+226 silly gunzTarPerm modified mode [ 'test/integration/client/result-metadata-tests.js', 420, 438 ]
+227 silly gunzTarPerm extractEntry test/integration/client/empty-query-tests.js
+228 silly gunzTarPerm modified mode [ 'test/integration/client/empty-query-tests.js', 420, 438 ]
+229 silly gunzTarPerm extractEntry test/integration/client/simple-query-tests.js
+230 silly gunzTarPerm modified mode [ 'test/integration/client/simple-query-tests.js', 420, 438 ]
+231 silly gunzTarPerm extractEntry test/integration/client/copy-tests.js
+232 silly gunzTarPerm modified mode [ 'test/integration/client/copy-tests.js', 420, 438 ]
+233 silly gunzTarPerm extractEntry test/integration/client/ssl-tests.js
+234 silly gunzTarPerm modified mode [ 'test/integration/client/ssl-tests.js', 420, 438 ]
+235 silly gunzTarPerm extractEntry test/integration/client/configuration-tests.js
+236 silly gunzTarPerm modified mode [ 'test/integration/client/configuration-tests.js', 420, 438 ]
+237 silly gunzTarPerm extractEntry test/integration/client/test-helper.js
+238 silly gunzTarPerm modified mode [ 'test/integration/client/test-helper.js', 420, 438 ]
+239 silly gunzTarPerm extractEntry test/integration/client/cancel-query-tests.js
+240 silly gunzTarPerm modified mode [ 'test/integration/client/cancel-query-tests.js', 420, 438 ]
+241 silly gunzTarPerm extractEntry test/integration/client/timezone-tests.js
+242 silly gunzTarPerm modified mode [ 'test/integration/client/timezone-tests.js', 420, 438 ]
+243 silly gunzTarPerm extractEntry test/integration/client/big-simple-query-tests.js
+244 silly gunzTarPerm modified mode [ 'test/integration/client/big-simple-query-tests.js', 420, 438 ]
+245 silly gunzTarPerm extractEntry test/integration/client/transaction-tests.js
+246 silly gunzTarPerm modified mode [ 'test/integration/client/transaction-tests.js', 420, 438 ]
+247 silly gunzTarPerm extractEntry test/integration/client/array-tests.js
+248 silly gunzTarPerm modified mode [ 'test/integration/client/array-tests.js', 420, 438 ]
+249 silly gunzTarPerm extractEntry test/integration/client/type-coercion-tests.js
+250 silly gunzTarPerm modified mode [ 'test/integration/client/type-coercion-tests.js', 420, 438 ]
+251 silly gunzTarPerm extractEntry test/integration/client/no-row-result-tests.js
+252 silly gunzTarPerm modified mode [ 'test/integration/client/no-row-result-tests.js', 420, 438 ]
+253 silly gunzTarPerm extractEntry test/integration/connection/bound-command-tests.js
+254 silly gunzTarPerm modified mode [ 'test/integration/connection/bound-command-tests.js',
+254 silly gunzTarPerm   420,
+254 silly gunzTarPerm   438 ]
+255 silly gunzTarPerm extractEntry test/integration/connection/copy-tests.js
+256 silly gunzTarPerm modified mode [ 'test/integration/connection/copy-tests.js', 420, 438 ]
+257 silly gunzTarPerm extractEntry test/integration/connection/notification-tests.js
+258 silly gunzTarPerm modified mode [ 'test/integration/connection/notification-tests.js', 420, 438 ]
+259 silly gunzTarPerm extractEntry test/integration/connection/query-tests.js
+260 silly gunzTarPerm modified mode [ 'test/integration/connection/query-tests.js', 420, 438 ]
+261 silly gunzTarPerm extractEntry test/integration/connection/test-helper.js
+262 silly gunzTarPerm modified mode [ 'test/integration/connection/test-helper.js', 420, 438 ]
+263 silly gunzTarPerm extractEntry test/integration/connection-pool/double-connection-tests.js
+264 silly gunzTarPerm modified mode [ 'test/integration/connection-pool/double-connection-tests.js',
+264 silly gunzTarPerm   420,
+264 silly gunzTarPerm   438 ]
+265 silly gunzTarPerm extractEntry test/integration/connection-pool/ending-pool-tests.js
+266 silly gunzTarPerm modified mode [ 'test/integration/connection-pool/ending-pool-tests.js',
+266 silly gunzTarPerm   420,
+266 silly gunzTarPerm   438 ]
+267 silly gunzTarPerm extractEntry test/integration/connection-pool/error-tests.js
+268 silly gunzTarPerm modified mode [ 'test/integration/connection-pool/error-tests.js', 420, 438 ]
+269 silly gunzTarPerm extractEntry test/integration/connection-pool/idle-timeout-tests.js
+270 silly gunzTarPerm modified mode [ 'test/integration/connection-pool/idle-timeout-tests.js',
+270 silly gunzTarPerm   420,
+270 silly gunzTarPerm   438 ]
+271 silly gunzTarPerm extractEntry test/integration/connection-pool/max-connection-tests.js
+272 silly gunzTarPerm modified mode [ 'test/integration/connection-pool/max-connection-tests.js',
+272 silly gunzTarPerm   420,
+272 silly gunzTarPerm   438 ]
+273 silly gunzTarPerm extractEntry test/integration/connection-pool/optional-config-tests.js
+274 silly gunzTarPerm modified mode [ 'test/integration/connection-pool/optional-config-tests.js',
+274 silly gunzTarPerm   420,
+274 silly gunzTarPerm   438 ]
+275 silly gunzTarPerm extractEntry test/integration/connection-pool/single-connection-tests.js
+276 silly gunzTarPerm modified mode [ 'test/integration/connection-pool/single-connection-tests.js',
+276 silly gunzTarPerm   420,
+276 silly gunzTarPerm   438 ]
+277 silly gunzTarPerm extractEntry test/integration/connection-pool/test-helper.js
+278 silly gunzTarPerm modified mode [ 'test/integration/connection-pool/test-helper.js', 420, 438 ]
+279 silly gunzTarPerm extractEntry test/integration/connection-pool/waiting-connection-tests.js
+280 silly gunzTarPerm modified mode [ 'test/integration/connection-pool/waiting-connection-tests.js',
+280 silly gunzTarPerm   420,
+280 silly gunzTarPerm   438 ]
+281 silly gunzTarPerm extractEntry test/integration/gh-issues/130.js
+282 silly gunzTarPerm modified mode [ 'test/integration/gh-issues/130.js', 420, 438 ]
+283 silly gunzTarPerm extractEntry test/integration/gh-issues/131.js
+284 silly gunzTarPerm modified mode [ 'test/integration/gh-issues/131.js', 420, 438 ]
+285 silly gunzTarPerm extractEntry test/native/callback-api-tests.js
+286 silly gunzTarPerm modified mode [ 'test/native/callback-api-tests.js', 420, 438 ]
+287 silly gunzTarPerm extractEntry test/native/connection-tests.js
+288 silly gunzTarPerm modified mode [ 'test/native/connection-tests.js', 420, 438 ]
+289 silly gunzTarPerm extractEntry test/native/copy-events-tests.js
+290 silly gunzTarPerm modified mode [ 'test/native/copy-events-tests.js', 420, 438 ]
+291 silly gunzTarPerm extractEntry test/native/copyto-largedata-tests.js
+292 silly gunzTarPerm modified mode [ 'test/native/copyto-largedata-tests.js', 420, 438 ]
+293 silly gunzTarPerm extractEntry test/native/error-tests.js
+294 silly gunzTarPerm modified mode [ 'test/native/error-tests.js', 420, 438 ]
+295 silly gunzTarPerm extractEntry test/native/evented-api-tests.js
+296 silly gunzTarPerm modified mode [ 'test/native/evented-api-tests.js', 420, 438 ]
+297 silly gunzTarPerm extractEntry test/native/stress-tests.js
+298 silly gunzTarPerm modified mode [ 'test/native/stress-tests.js', 420, 438 ]
+299 silly gunzTarPerm extractEntry test/unit/test-helper.js
+300 silly gunzTarPerm modified mode [ 'test/unit/test-helper.js', 420, 438 ]
+301 silly gunzTarPerm extractEntry test/unit/utils-tests.js
+302 silly gunzTarPerm modified mode [ 'test/unit/utils-tests.js', 420, 438 ]
+303 silly gunzTarPerm extractEntry test/unit/client/cleartext-password-tests.js
+304 silly gunzTarPerm modified mode [ 'test/unit/client/cleartext-password-tests.js', 420, 438 ]
+305 silly gunzTarPerm extractEntry test/unit/client/md5-password-tests.js
+306 silly gunzTarPerm modified mode [ 'test/unit/client/md5-password-tests.js', 420, 438 ]
+307 silly gunzTarPerm extractEntry test/unit/client/notification-tests.js
+308 silly gunzTarPerm modified mode [ 'test/unit/client/notification-tests.js', 420, 438 ]
+309 silly gunzTarPerm extractEntry test/unit/client/prepared-statement-tests.js
+310 silly gunzTarPerm modified mode [ 'test/unit/client/prepared-statement-tests.js', 420, 438 ]
+311 silly gunzTarPerm extractEntry test/unit/client/connection-string-tests.js
+312 silly gunzTarPerm modified mode [ 'test/unit/client/connection-string-tests.js', 420, 438 ]
+313 silly gunzTarPerm extractEntry test/unit/client/query-tests.js
+314 silly gunzTarPerm modified mode [ 'test/unit/client/query-tests.js', 420, 438 ]
+315 silly gunzTarPerm extractEntry test/unit/client/result-metadata-tests.js
+316 silly gunzTarPerm modified mode [ 'test/unit/client/result-metadata-tests.js', 420, 438 ]
+317 silly gunzTarPerm extractEntry test/unit/client/simple-query-tests.js
+318 silly gunzTarPerm modified mode [ 'test/unit/client/simple-query-tests.js', 420, 438 ]
+319 silly gunzTarPerm extractEntry test/unit/client/stream-and-query-error-interaction-tests.js
+320 silly gunzTarPerm modified mode [ 'test/unit/client/stream-and-query-error-interaction-tests.js',
+320 silly gunzTarPerm   420,
+320 silly gunzTarPerm   438 ]
+321 silly gunzTarPerm extractEntry test/unit/client/test-helper.js
+322 silly gunzTarPerm modified mode [ 'test/unit/client/test-helper.js', 420, 438 ]
+323 silly gunzTarPerm extractEntry test/unit/client/configuration-tests.js
+324 silly gunzTarPerm modified mode [ 'test/unit/client/configuration-tests.js', 420, 438 ]
+325 silly gunzTarPerm extractEntry test/unit/client/typed-query-results-tests.js
+326 silly gunzTarPerm modified mode [ 'test/unit/client/typed-query-results-tests.js', 420, 438 ]
+327 silly gunzTarPerm extractEntry test/unit/client/query-queue-tests.js
+328 silly gunzTarPerm modified mode [ 'test/unit/client/query-queue-tests.js', 420, 438 ]
+329 silly gunzTarPerm extractEntry test/unit/connection/error-tests.js
+330 silly gunzTarPerm modified mode [ 'test/unit/connection/error-tests.js', 420, 438 ]
+331 silly gunzTarPerm extractEntry test/unit/connection/inbound-parser-tests.js
+332 silly gunzTarPerm modified mode [ 'test/unit/connection/inbound-parser-tests.js', 420, 438 ]
+333 silly gunzTarPerm extractEntry test/unit/connection/outbound-sending-tests.js
+334 silly gunzTarPerm modified mode [ 'test/unit/connection/outbound-sending-tests.js', 420, 438 ]
+335 silly gunzTarPerm extractEntry test/unit/connection/startup-tests.js
+336 silly gunzTarPerm modified mode [ 'test/unit/connection/startup-tests.js', 420, 438 ]
+337 silly gunzTarPerm extractEntry test/unit/connection/test-helper.js
+338 silly gunzTarPerm modified mode [ 'test/unit/connection/test-helper.js', 420, 438 ]
+339 silly gunzTarPerm extractEntry test/unit/connection-parameters/creation-tests.js
+340 silly gunzTarPerm modified mode [ 'test/unit/connection-parameters/creation-tests.js', 420, 438 ]
+341 silly gunzTarPerm extractEntry test/unit/connection-parameters/environment-variable-tests.js
+342 silly gunzTarPerm modified mode [ 'test/unit/connection-parameters/environment-variable-tests.js',
+342 silly gunzTarPerm   420,
+342 silly gunzTarPerm   438 ]
+343 silly gunzTarPerm extractEntry test/unit/copystream/copyfrom-tests.js
+344 silly gunzTarPerm modified mode [ 'test/unit/copystream/copyfrom-tests.js', 420, 438 ]
+345 silly gunzTarPerm extractEntry test/unit/copystream/copyto-tests.js
+346 silly gunzTarPerm modified mode [ 'test/unit/copystream/copyto-tests.js', 420, 438 ]
+347 silly gunzTarPerm extractEntry test/unit/pool/basic-tests.js
+348 silly gunzTarPerm modified mode [ 'test/unit/pool/basic-tests.js', 420, 438 ]
+349 silly gunzTarPerm extractEntry test/unit/pool/timeout-tests.js
+350 silly gunzTarPerm modified mode [ 'test/unit/pool/timeout-tests.js', 420, 438 ]
+351 silly gunzTarPerm extractEntry wscript
+352 silly gunzTarPerm modified mode [ 'wscript', 420, 438 ]
+353 verbose write writing to C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\package.json
+354 info preinstall pg@2.0.0
+355 verbose readDependencies loading dependencies from C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\package.json
+356 silly prepareForInstallMany adding generic-pool@2.0.3 from pg dependencies
+357 silly prepareForInstallMany adding buffer-writer@1.0.0 from pg dependencies
+358 silly prepareForInstallMany adding ref@0.1.3 from pg dependencies
+359 verbose readDependencies loading dependencies from C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\package.json
+360 silly cache add args [ 'generic-pool@2.0.3', null ]
+361 verbose cache add spec generic-pool@2.0.3
+362 silly cache add args [ 'buffer-writer@1.0.0', null ]
+363 verbose cache add spec buffer-writer@1.0.0
+364 silly cache add parsed spec Result {
+364 silly cache add   raw: 'generic-pool@2.0.3',
+364 silly cache add   scope: null,
+364 silly cache add   name: 'generic-pool',
+364 silly cache add   rawSpec: '2.0.3',
+364 silly cache add   spec: '2.0.3',
+364 silly cache add   type: 'version' }
+365 silly addNamed generic-pool@2.0.3
+366 verbose addNamed "2.0.3" is a plain semver version for generic-pool
+367 silly mapToRegistry name generic-pool
+368 silly mapToRegistry using default registry
+369 silly mapToRegistry registry https://registry.npmjs.org/
+370 silly mapToRegistry data Result {
+370 silly mapToRegistry   raw: 'generic-pool',
+370 silly mapToRegistry   scope: null,
+370 silly mapToRegistry   name: 'generic-pool',
+370 silly mapToRegistry   rawSpec: '',
+370 silly mapToRegistry   spec: 'latest',
+370 silly mapToRegistry   type: 'tag' }
+371 silly mapToRegistry uri https://registry.npmjs.org/generic-pool
+372 verbose addNameVersion registry:https://registry.npmjs.org/generic-pool not in flight; fetching
+373 silly cache add parsed spec Result {
+373 silly cache add   raw: 'buffer-writer@1.0.0',
+373 silly cache add   scope: null,
+373 silly cache add   name: 'buffer-writer',
+373 silly cache add   rawSpec: '1.0.0',
+373 silly cache add   spec: '1.0.0',
+373 silly cache add   type: 'version' }
+374 silly addNamed buffer-writer@1.0.0
+375 verbose addNamed "1.0.0" is a plain semver version for buffer-writer
+376 silly mapToRegistry name buffer-writer
+377 silly mapToRegistry using default registry
+378 silly mapToRegistry registry https://registry.npmjs.org/
+379 silly mapToRegistry data Result {
+379 silly mapToRegistry   raw: 'buffer-writer',
+379 silly mapToRegistry   scope: null,
+379 silly mapToRegistry   name: 'buffer-writer',
+379 silly mapToRegistry   rawSpec: '',
+379 silly mapToRegistry   spec: 'latest',
+379 silly mapToRegistry   type: 'tag' }
+380 silly mapToRegistry uri https://registry.npmjs.org/buffer-writer
+381 verbose addNameVersion registry:https://registry.npmjs.org/buffer-writer not in flight; fetching
+382 silly cache add args [ 'ref@0.1.3', null ]
+383 verbose cache add spec ref@0.1.3
+384 silly cache add parsed spec Result {
+384 silly cache add   raw: 'ref@0.1.3',
+384 silly cache add   scope: null,
+384 silly cache add   name: 'ref',
+384 silly cache add   rawSpec: '0.1.3',
+384 silly cache add   spec: '0.1.3',
+384 silly cache add   type: 'version' }
+385 silly addNamed ref@0.1.3
+386 verbose addNamed "0.1.3" is a plain semver version for ref
+387 silly mapToRegistry name ref
+388 silly mapToRegistry using default registry
+389 silly mapToRegistry registry https://registry.npmjs.org/
+390 silly mapToRegistry data Result {
+390 silly mapToRegistry   raw: 'ref',
+390 silly mapToRegistry   scope: null,
+390 silly mapToRegistry   name: 'ref',
+390 silly mapToRegistry   rawSpec: '',
+390 silly mapToRegistry   spec: 'latest',
+390 silly mapToRegistry   type: 'tag' }
+391 silly mapToRegistry uri https://registry.npmjs.org/ref
+392 verbose addNameVersion registry:https://registry.npmjs.org/ref not in flight; fetching
+393 verbose request uri https://registry.npmjs.org/buffer-writer
+394 verbose request no auth needed
+395 info attempt registry request try #1 at 4:45:59 PM
+396 verbose etag "3HUABTF6IWA621ZH3F378TJKN"
+397 http request GET https://registry.npmjs.org/buffer-writer
+398 verbose request uri https://registry.npmjs.org/generic-pool
+399 verbose request no auth needed
+400 info attempt registry request try #1 at 4:45:59 PM
+401 verbose etag "1DBSS6TRNVHUSP5Y8RO4RFSJ5"
+402 http request GET https://registry.npmjs.org/generic-pool
+403 verbose request uri https://registry.npmjs.org/ref
+404 verbose request no auth needed
+405 info attempt registry request try #1 at 4:45:59 PM
+406 verbose etag "2U5YWC5QYD6MZRKVTOQU9S2OX"
+407 http request GET https://registry.npmjs.org/ref
+408 http 304 https://registry.npmjs.org/buffer-writer
+409 verbose headers { date: 'Thu, 03 Nov 2016 09:45:56 GMT',
+409 verbose headers   via: '1.1 varnish',
+409 verbose headers   'cache-control': 'max-age=300',
+409 verbose headers   etag: '"3HUABTF6IWA621ZH3F378TJKN"',
+409 verbose headers   age: '32',
+409 verbose headers   connection: 'keep-alive',
+409 verbose headers   'x-served-by': 'cache-hkg6822-HKG',
+409 verbose headers   'x-cache': 'HIT',
+409 verbose headers   'x-cache-hits': '1',
+409 verbose headers   'x-timer': 'S1478166356.298986,VS0,VE0',
+409 verbose headers   vary: 'Accept-Encoding' }
+410 silly get cb [ 304,
+410 silly get   { date: 'Thu, 03 Nov 2016 09:45:56 GMT',
+410 silly get     via: '1.1 varnish',
+410 silly get     'cache-control': 'max-age=300',
+410 silly get     etag: '"3HUABTF6IWA621ZH3F378TJKN"',
+410 silly get     age: '32',
+410 silly get     connection: 'keep-alive',
+410 silly get     'x-served-by': 'cache-hkg6822-HKG',
+410 silly get     'x-cache': 'HIT',
+410 silly get     'x-cache-hits': '1',
+410 silly get     'x-timer': 'S1478166356.298986,VS0,VE0',
+410 silly get     vary: 'Accept-Encoding' } ]
+411 verbose etag https://registry.npmjs.org/buffer-writer from cache
+412 verbose get saving buffer-writer to C:\Users\anhma\AppData\Roaming\npm-cache\registry.npmjs.org\buffer-writer\.cache.json
+413 verbose correctMkdir C:\Users\anhma\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+414 silly cache afterAdd buffer-writer@1.0.0
+415 verbose afterAdd C:\Users\anhma\AppData\Roaming\npm-cache\buffer-writer\1.0.0\package\package.json not in flight; writing
+416 verbose correctMkdir C:\Users\anhma\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+417 verbose afterAdd C:\Users\anhma\AppData\Roaming\npm-cache\buffer-writer\1.0.0\package\package.json written
+418 http 304 https://registry.npmjs.org/ref
+419 verbose headers { date: 'Thu, 03 Nov 2016 09:45:56 GMT',
+419 verbose headers   via: '1.1 varnish',
+419 verbose headers   'cache-control': 'max-age=300',
+419 verbose headers   etag: '"2U5YWC5QYD6MZRKVTOQU9S2OX"',
+419 verbose headers   age: '31',
+419 verbose headers   connection: 'keep-alive',
+419 verbose headers   'x-served-by': 'cache-hkg6822-HKG',
+419 verbose headers   'x-cache': 'HIT',
+419 verbose headers   'x-cache-hits': '1',
+419 verbose headers   'x-timer': 'S1478166356.349627,VS0,VE0',
+419 verbose headers   vary: 'Accept-Encoding' }
+420 silly get cb [ 304,
+420 silly get   { date: 'Thu, 03 Nov 2016 09:45:56 GMT',
+420 silly get     via: '1.1 varnish',
+420 silly get     'cache-control': 'max-age=300',
+420 silly get     etag: '"2U5YWC5QYD6MZRKVTOQU9S2OX"',
+420 silly get     age: '31',
+420 silly get     connection: 'keep-alive',
+420 silly get     'x-served-by': 'cache-hkg6822-HKG',
+420 silly get     'x-cache': 'HIT',
+420 silly get     'x-cache-hits': '1',
+420 silly get     'x-timer': 'S1478166356.349627,VS0,VE0',
+420 silly get     vary: 'Accept-Encoding' } ]
+421 verbose etag https://registry.npmjs.org/ref from cache
+422 verbose get saving ref to C:\Users\anhma\AppData\Roaming\npm-cache\registry.npmjs.org\ref\.cache.json
+423 verbose correctMkdir C:\Users\anhma\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+424 http 304 https://registry.npmjs.org/generic-pool
+425 verbose headers { date: 'Thu, 03 Nov 2016 09:45:56 GMT',
+425 verbose headers   via: '1.1 varnish',
+425 verbose headers   'cache-control': 'max-age=300',
+425 verbose headers   etag: '"1DBSS6TRNVHUSP5Y8RO4RFSJ5"',
+425 verbose headers   age: '31',
+425 verbose headers   connection: 'keep-alive',
+425 verbose headers   'x-served-by': 'cache-hkg6822-HKG',
+425 verbose headers   'x-cache': 'HIT',
+425 verbose headers   'x-cache-hits': '2',
+425 verbose headers   'x-timer': 'S1478166356.351362,VS0,VE0',
+425 verbose headers   vary: 'Accept-Encoding' }
+426 silly get cb [ 304,
+426 silly get   { date: 'Thu, 03 Nov 2016 09:45:56 GMT',
+426 silly get     via: '1.1 varnish',
+426 silly get     'cache-control': 'max-age=300',
+426 silly get     etag: '"1DBSS6TRNVHUSP5Y8RO4RFSJ5"',
+426 silly get     age: '31',
+426 silly get     connection: 'keep-alive',
+426 silly get     'x-served-by': 'cache-hkg6822-HKG',
+426 silly get     'x-cache': 'HIT',
+426 silly get     'x-cache-hits': '2',
+426 silly get     'x-timer': 'S1478166356.351362,VS0,VE0',
+426 silly get     vary: 'Accept-Encoding' } ]
+427 verbose etag https://registry.npmjs.org/generic-pool from cache
+428 verbose get saving generic-pool to C:\Users\anhma\AppData\Roaming\npm-cache\registry.npmjs.org\generic-pool\.cache.json
+429 verbose correctMkdir C:\Users\anhma\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+430 silly cache afterAdd generic-pool@2.0.3
+431 verbose afterAdd C:\Users\anhma\AppData\Roaming\npm-cache\generic-pool\2.0.3\package\package.json not in flight; writing
+432 verbose correctMkdir C:\Users\anhma\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+433 silly cache afterAdd ref@0.1.3
+434 verbose afterAdd C:\Users\anhma\AppData\Roaming\npm-cache\ref\0.1.3\package\package.json not in flight; writing
+435 verbose correctMkdir C:\Users\anhma\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+436 verbose afterAdd C:\Users\anhma\AppData\Roaming\npm-cache\ref\0.1.3\package\package.json written
+437 verbose afterAdd C:\Users\anhma\AppData\Roaming\npm-cache\generic-pool\2.0.3\package\package.json written
+438 silly install resolved [ { name: 'buffer-writer',
+438 silly install resolved     version: '1.0.0',
+438 silly install resolved     description: 'a fast, efficient buffer writer',
+438 silly install resolved     main: 'index.js',
+438 silly install resolved     scripts: { test: 'mocha' },
+438 silly install resolved     repository:
+438 silly install resolved      { type: 'git',
+438 silly install resolved        url: 'git://github.com/brianc/node-buffer-writer.git' },
+438 silly install resolved     keywords: [ 'buffer', 'writer', 'builder' ],
+438 silly install resolved     author: { name: 'Brian M. Carlson' },
+438 silly install resolved     license: 'MIT',
+438 silly install resolved     devDependencies:
+438 silly install resolved      { mocha: '~1.8.1',
+438 silly install resolved        benchmark: '~1.0.0',
+438 silly install resolved        microtime: '~0.3.3',
+438 silly install resolved        bench: '~0.3.5',
+438 silly install resolved        okay: '0.0.2',
+438 silly install resolved        cloned: '0.0.1',
+438 silly install resolved        rmdir: '~1.0.0',
+438 silly install resolved        async: '~0.2.6' },
+438 silly install resolved     bugs: { url: 'https://github.com/brianc/node-buffer-writer/issues' },
+438 silly install resolved     _id: 'buffer-writer@1.0.0',
+438 silly install resolved     dist:
+438 silly install resolved      { shasum: '6c29c3b2dea0c9e455a1f261a199a48a04f88b08',
+438 silly install resolved        tarball: 'https://registry.npmjs.org/buffer-writer/-/buffer-writer-1.0.0.tgz' },
+438 silly install resolved     _from: 'buffer-writer@1.0.0',
+438 silly install resolved     _npmVersion: '1.3.11',
+438 silly install resolved     _npmUser: { name: 'brianc', email: 'brian.m.carlson@gmail.com' },
+438 silly install resolved     maintainers: [ [Object] ],
+438 silly install resolved     directories: {},
+438 silly install resolved     _shasum: '6c29c3b2dea0c9e455a1f261a199a48a04f88b08',
+438 silly install resolved     _resolved: 'https://registry.npmjs.org/buffer-writer/-/buffer-writer-1.0.0.tgz',
+438 silly install resolved     readme: 'ERROR: No README data found!',
+438 silly install resolved     homepage: 'https://github.com/brianc/node-buffer-writer#readme' },
+438 silly install resolved   { name: 'ref',
+438 silly install resolved     description: 'Turn Buffer instances into "pointers"',
+438 silly install resolved     keywords:
+438 silly install resolved      [ 'native',
+438 silly install resolved        'buffer',
+438 silly install resolved        'extensions',
+438 silly install resolved        'c++',
+438 silly install resolved        'pointer',
+438 silly install resolved        'reference',
+438 silly install resolved        'dereference',
+438 silly install resolved        'type',
+438 silly install resolved        'int',
+438 silly install resolved        'long',
+438 silly install resolved        'float',
+438 silly install resolved        'double',
+438 silly install resolved        'byte',
+438 silly install resolved        '64' ],
+438 silly install resolved     version: '0.1.3',
+438 silly install resolved     author:
+438 silly install resolved      { name: 'Nathan Rajlich',
+438 silly install resolved        email: 'nathan@tootallnate.net',
+438 silly install resolved        url: 'http://tootallnate.net' },
+438 silly install resolved     repository: { type: 'git', url: 'git://github.com/TooTallNate/ref.git' },
+438 silly install resolved     main: './lib/ref.js',
+438 silly install resolved     scripts:
+438 silly install resolved      { docs: 'node docs/compile',
+438 silly install resolved        test: 'mocha -gc --reporter spec',
+438 silly install resolved        install: 'node-gyp rebuild' },
+438 silly install resolved     dependencies: { bindings: '*', debug: '*' },
+438 silly install resolved     devDependencies:
+438 silly install resolved      { dox: '*',
+438 silly install resolved        'highlight.js': '1',
+438 silly install resolved        jade: '*',
+438 silly install resolved        marked: '*',
+438 silly install resolved        mocha: '*',
+438 silly install resolved        weak: '*' },
+438 silly install resolved     engines: { node: '*' },
+438 silly install resolved     gypfile: true,
+438 silly install resolved     _id: 'ref@0.1.3',
+438 silly install resolved     dist:
+438 silly install resolved      { shasum: 'ad268e2e393aa02b89cba655aca6d2c506743faa',
+438 silly install resolved        tarball: 'https://registry.npmjs.org/ref/-/ref-0.1.3.tgz' },
+438 silly install resolved     _npmVersion: '1.1.62',
+438 silly install resolved     _npmUser: { name: 'tootallnate', email: 'nathan@tootallnate.net' },
+438 silly install resolved     maintainers: [ [Object] ],
+438 silly install resolved     directories: {},
+438 silly install resolved     _shasum: 'ad268e2e393aa02b89cba655aca6d2c506743faa',
+438 silly install resolved     _resolved: 'https://registry.npmjs.org/ref/-/ref-0.1.3.tgz',
+438 silly install resolved     _from: 'ref@0.1.3',
+438 silly install resolved     bugs: { url: 'https://github.com/TooTallNate/ref/issues' },
+438 silly install resolved     readme: 'ERROR: No README data found!',
+438 silly install resolved     homepage: 'https://github.com/TooTallNate/ref#readme' },
+438 silly install resolved   { name: 'generic-pool',
+438 silly install resolved     description: 'Generic resource pooling for Node.JS',
+438 silly install resolved     version: '2.0.3',
+438 silly install resolved     author: { name: 'James Cooper', email: 'james@bitmechanic.com' },
+438 silly install resolved     contributors: [ [Object], [Object], [Object], [Object], [Object] ],
+438 silly install resolved     keywords: [ 'pool', 'pooling', 'throttle' ],
+438 silly install resolved     main: 'lib/generic-pool.js',
+438 silly install resolved     repository:
+438 silly install resolved      { type: 'git',
+438 silly install resolved        url: 'git+ssh://git@github.com/coopernurse/node-pool.git' },
+438 silly install resolved     devDependencies: { expresso: '>0.0.0' },
+438 silly install resolved     engines: { node: '>= 0.2.0' },
+438 silly install resolved     scripts: { test: 'expresso -I lib test/*.js' },
+438 silly install resolved     _id: 'generic-pool@2.0.3',
+438 silly install resolved     dist:
+438 silly install resolved      { shasum: 'cfcd56f339b09815bcbc4b3f0ca275ae6107c781',
+438 silly install resolved        tarball: 'https://registry.npmjs.org/generic-pool/-/generic-pool-2.0.3.tgz' },
+438 silly install resolved     _npmVersion: '1.1.69',
+438 silly install resolved     _npmUser: { name: 'coopernurse', email: 'james@bitmechanic.com' },
+438 silly install resolved     maintainers: [ [Object] ],
+438 silly install resolved     directories: {},
+438 silly install resolved     _shasum: 'cfcd56f339b09815bcbc4b3f0ca275ae6107c781',
+438 silly install resolved     _resolved: 'https://registry.npmjs.org/generic-pool/-/generic-pool-2.0.3.tgz',
+438 silly install resolved     _from: 'generic-pool@2.0.3',
+438 silly install resolved     bugs: { url: 'https://github.com/coopernurse/node-pool/issues' },
+438 silly install resolved     readme: 'ERROR: No README data found!',
+438 silly install resolved     homepage: 'https://github.com/coopernurse/node-pool#readme' } ]
+439 info install buffer-writer@1.0.0 into C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg
+440 info install ref@0.1.3 into C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg
+441 info install generic-pool@2.0.3 into C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg
+442 info installOne buffer-writer@1.0.0
+443 verbose installOne of buffer-writer to C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg not in flight; installing
+444 verbose correctMkdir C:\Users\anhma\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+445 info installOne ref@0.1.3
+446 verbose installOne of ref to C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg not in flight; installing
+447 verbose correctMkdir C:\Users\anhma\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+448 info installOne generic-pool@2.0.3
+449 verbose installOne of generic-pool to C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg not in flight; installing
+450 verbose correctMkdir C:\Users\anhma\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+451 verbose lock using C:\Users\anhma\AppData\Roaming\npm-cache\_locks\buffer-writer-bc15ee1d30bf6b6d.lock for C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\buffer-writer
+452 verbose lock using C:\Users\anhma\AppData\Roaming\npm-cache\_locks\ref-4d590b14e5bb4dc5.lock for C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\ref
+453 silly install write writing buffer-writer 1.0.0 to C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\buffer-writer
+454 silly install write writing ref 0.1.3 to C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\ref
+455 verbose lock using C:\Users\anhma\AppData\Roaming\npm-cache\_locks\generic-pool-70e8d75d85a27371.lock for C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\generic-pool
+456 silly install write writing generic-pool 2.0.3 to C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\generic-pool
+457 verbose unbuild node_modules\pg\node_modules\ref
+458 verbose unbuild node_modules\pg\node_modules\buffer-writer
+459 verbose unbuild node_modules\pg\node_modules\generic-pool
+460 silly gentlyRm C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\buffer-writer is being purged from base C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo
+461 verbose gentlyRm don't care about contents; nuking C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\buffer-writer
+462 silly gentlyRm C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\ref is being purged from base C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo
+463 verbose gentlyRm don't care about contents; nuking C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\ref
+464 verbose tar unpack C:\Users\anhma\AppData\Roaming\npm-cache\buffer-writer\1.0.0\package.tgz
+465 verbose tar unpacking to C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\buffer-writer
+466 silly gentlyRm C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\buffer-writer is being purged
+467 verbose gentlyRm don't care about contents; nuking C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\buffer-writer
+468 verbose tar unpack C:\Users\anhma\AppData\Roaming\npm-cache\ref\0.1.3\package.tgz
+469 verbose tar unpacking to C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\ref
+470 silly gentlyRm C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\ref is being purged
+471 verbose gentlyRm don't care about contents; nuking C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\ref
+472 silly gentlyRm C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\generic-pool is being purged from base C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo
+473 verbose gentlyRm don't care about contents; nuking C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\generic-pool
+474 silly gunzTarPerm modes [ '777', '666' ]
+475 silly gunzTarPerm modes [ '777', '666' ]
+476 verbose tar unpack C:\Users\anhma\AppData\Roaming\npm-cache\generic-pool\2.0.3\package.tgz
+477 verbose tar unpacking to C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\generic-pool
+478 silly gentlyRm C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\generic-pool is being purged
+479 verbose gentlyRm don't care about contents; nuking C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\generic-pool
+480 silly gunzTarPerm modes [ '777', '666' ]
+481 silly gunzTarPerm extractEntry package.json
+482 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+483 silly gunzTarPerm extractEntry package.json
+484 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+485 silly gunzTarPerm extractEntry .npmignore
+486 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+487 silly gunzTarPerm extractEntry README.md
+488 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+489 silly gunzTarPerm extractEntry .npmignore
+490 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+491 silly gunzTarPerm extractEntry README.md
+492 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+493 silly gunzTarPerm extractEntry .travis.yml
+494 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+495 silly gunzTarPerm extractEntry binding.gyp
+496 silly gunzTarPerm modified mode [ 'binding.gyp', 420, 438 ]
+497 silly gunzTarPerm extractEntry package.json
+498 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+499 silly gunzTarPerm extractEntry .npmignore
+500 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+501 silly gunzTarPerm extractEntry README.md
+502 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+503 silly gunzTarPerm extractEntry index.js
+504 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+505 silly gunzTarPerm extractEntry .travis.yml
+506 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+507 silly gunzTarPerm extractEntry benchmark/index.js
+508 silly gunzTarPerm modified mode [ 'benchmark/index.js', 420, 438 ]
+509 silly gunzTarPerm extractEntry benchmark/int-16-benchmark.js
+510 silly gunzTarPerm modified mode [ 'benchmark/int-16-benchmark.js', 420, 438 ]
+511 silly gunzTarPerm extractEntry benchmark/int-32-benchmark.js
+512 silly gunzTarPerm modified mode [ 'benchmark/int-32-benchmark.js', 420, 438 ]
+513 silly gunzTarPerm extractEntry benchmark/join-benchmark.js
+514 silly gunzTarPerm modified mode [ 'benchmark/join-benchmark.js', 420, 438 ]
+515 silly gunzTarPerm extractEntry .travis.yml
+516 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+517 silly gunzTarPerm extractEntry fabfile.py
+518 silly gunzTarPerm modified mode [ 'fabfile.py', 420, 438 ]
+519 silly gunzTarPerm extractEntry lib/generic-pool.js
+520 silly gunzTarPerm modified mode [ 'lib/generic-pool.js', 420, 438 ]
+521 silly gunzTarPerm extractEntry Makefile
+522 silly gunzTarPerm modified mode [ 'Makefile', 420, 438 ]
+523 silly gunzTarPerm extractEntry test/generic-pool.test.js
+524 silly gunzTarPerm modified mode [ 'test/generic-pool.test.js', 420, 438 ]
+525 silly gunzTarPerm extractEntry docs/compile.js
+526 silly gunzTarPerm modified mode [ 'docs/compile.js', 420, 438 ]
+527 silly gunzTarPerm extractEntry docs/gh-pages.sh
+528 silly gunzTarPerm modified mode [ 'docs/gh-pages.sh', 493, 511 ]
+529 silly gunzTarPerm extractEntry docs/images/apple-touch-icon-114x114.png
+530 silly gunzTarPerm modified mode [ 'docs/images/apple-touch-icon-114x114.png', 420, 438 ]
+531 silly gunzTarPerm extractEntry benchmark/resize-benchmark.js
+532 silly gunzTarPerm modified mode [ 'benchmark/resize-benchmark.js', 420, 438 ]
+533 silly gunzTarPerm extractEntry docs/images/apple-touch-icon-72x72.png
+534 silly gunzTarPerm modified mode [ 'docs/images/apple-touch-icon-72x72.png', 420, 438 ]
+535 silly gunzTarPerm extractEntry docs/images/apple-touch-icon.png
+536 silly gunzTarPerm modified mode [ 'docs/images/apple-touch-icon.png', 420, 438 ]
+537 silly gunzTarPerm extractEntry docs/images/favicon.ico
+538 silly gunzTarPerm modified mode [ 'docs/images/favicon.ico', 420, 438 ]
+539 silly gunzTarPerm extractEntry docs/images/ref.pxm
+540 silly gunzTarPerm modified mode [ 'docs/images/ref.pxm', 420, 438 ]
+541 silly gunzTarPerm extractEntry benchmark/small-benchmark.js
+542 silly gunzTarPerm modified mode [ 'benchmark/small-benchmark.js', 420, 438 ]
+543 silly gunzTarPerm extractEntry test/writer-tests.js
+544 silly gunzTarPerm modified mode [ 'test/writer-tests.js', 420, 438 ]
+545 silly gunzTarPerm extractEntry test/mocha.opts
+546 silly gunzTarPerm modified mode [ 'test/mocha.opts', 420, 438 ]
+547 silly gunzTarPerm extractEntry docs/index.jade
+548 silly gunzTarPerm modified mode [ 'docs/index.jade', 420, 438 ]
+549 silly gunzTarPerm extractEntry docs/scripts/jquery-1.7.2.min.js
+550 silly gunzTarPerm modified mode [ 'docs/scripts/jquery-1.7.2.min.js', 420, 438 ]
+551 silly gunzTarPerm extractEntry docs/scripts/main.js
+552 silly gunzTarPerm modified mode [ 'docs/scripts/main.js', 420, 438 ]
+553 silly gunzTarPerm extractEntry docs/stylesheets/base.css
+554 silly gunzTarPerm modified mode [ 'docs/stylesheets/base.css', 420, 438 ]
+555 silly gunzTarPerm extractEntry docs/stylesheets/layout.css
+556 silly gunzTarPerm modified mode [ 'docs/stylesheets/layout.css', 420, 438 ]
+557 silly gunzTarPerm extractEntry docs/stylesheets/skeleton.css
+558 silly gunzTarPerm modified mode [ 'docs/stylesheets/skeleton.css', 420, 438 ]
+559 silly gunzTarPerm extractEntry History.md
+560 silly gunzTarPerm modified mode [ 'History.md', 420, 438 ]
+561 silly gunzTarPerm extractEntry lib/ref.js
+562 silly gunzTarPerm modified mode [ 'lib/ref.js', 420, 438 ]
+563 silly gunzTarPerm extractEntry src/binding.cc
+564 silly gunzTarPerm modified mode [ 'src/binding.cc', 420, 438 ]
+565 silly gunzTarPerm extractEntry test/address.js
+566 silly gunzTarPerm modified mode [ 'test/address.js', 420, 438 ]
+567 silly gunzTarPerm extractEntry test/char.js
+568 silly gunzTarPerm modified mode [ 'test/char.js', 420, 438 ]
+569 verbose write writing to C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\generic-pool\package.json
+570 silly gunzTarPerm extractEntry test/coerce.js
+571 silly gunzTarPerm modified mode [ 'test/coerce.js', 420, 438 ]
+572 silly gunzTarPerm extractEntry test/int64.js
+573 silly gunzTarPerm modified mode [ 'test/int64.js', 420, 438 ]
+574 silly gunzTarPerm extractEntry test/bool.js
+575 silly gunzTarPerm modified mode [ 'test/bool.js', 420, 438 ]
+576 info preinstall generic-pool@2.0.3
+577 verbose readDependencies loading dependencies from C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\generic-pool\package.json
+578 verbose readDependencies loading dependencies from C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\generic-pool\package.json
+579 silly install resolved []
+580 verbose about to build C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\generic-pool
+581 info build C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\generic-pool
+582 info linkStuff generic-pool@2.0.3
+583 silly linkStuff generic-pool@2.0.3 has C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules as its parent node_modules
+584 verbose linkBins generic-pool@2.0.3
+585 verbose linkMans generic-pool@2.0.3
+586 verbose rebuildBundles generic-pool@2.0.3
+587 info install generic-pool@2.0.3
+588 info postinstall generic-pool@2.0.3
+589 verbose unlock done using C:\Users\anhma\AppData\Roaming\npm-cache\_locks\generic-pool-70e8d75d85a27371.lock for C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\generic-pool
+590 verbose write writing to C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\buffer-writer\package.json
+591 info preinstall buffer-writer@1.0.0
+592 verbose readDependencies loading dependencies from C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\buffer-writer\package.json
+593 verbose readDependencies loading dependencies from C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\buffer-writer\package.json
+594 silly install resolved []
+595 verbose about to build C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\buffer-writer
+596 info build C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\buffer-writer
+597 info linkStuff buffer-writer@1.0.0
+598 silly linkStuff buffer-writer@1.0.0 has C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules as its parent node_modules
+599 verbose linkBins buffer-writer@1.0.0
+600 verbose linkMans buffer-writer@1.0.0
+601 verbose rebuildBundles buffer-writer@1.0.0
+602 info install buffer-writer@1.0.0
+603 info postinstall buffer-writer@1.0.0
+604 verbose unlock done using C:\Users\anhma\AppData\Roaming\npm-cache\_locks\buffer-writer-bc15ee1d30bf6b6d.lock for C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\buffer-writer
+605 silly gunzTarPerm extractEntry test/object.js
+606 silly gunzTarPerm modified mode [ 'test/object.js', 420, 438 ]
+607 silly gunzTarPerm extractEntry test/pointer.js
+608 silly gunzTarPerm modified mode [ 'test/pointer.js', 420, 438 ]
+609 silly gunzTarPerm extractEntry test/ref-deref.js
+610 silly gunzTarPerm modified mode [ 'test/ref-deref.js', 420, 438 ]
+611 silly gunzTarPerm extractEntry test/reinterpret.js
+612 silly gunzTarPerm modified mode [ 'test/reinterpret.js', 420, 438 ]
+613 silly gunzTarPerm extractEntry test/string.js
+614 silly gunzTarPerm modified mode [ 'test/string.js', 420, 438 ]
+615 silly gunzTarPerm extractEntry test/alloc.js
+616 silly gunzTarPerm modified mode [ 'test/alloc.js', 420, 438 ]
+617 silly gunzTarPerm extractEntry test/types.js
+618 silly gunzTarPerm modified mode [ 'test/types.js', 420, 438 ]
+619 silly gunzTarPerm extractEntry test/isNull.js
+620 silly gunzTarPerm modified mode [ 'test/isNull.js', 420, 438 ]
+621 verbose write writing to C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\ref\package.json
+622 info preinstall ref@0.1.3
+623 verbose readDependencies loading dependencies from C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\ref\package.json
+624 silly prepareForInstallMany adding bindings@* from ref dependencies
+625 silly prepareForInstallMany adding debug@* from ref dependencies
+626 verbose readDependencies loading dependencies from C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\ref\package.json
+627 silly cache add args [ 'bindings@*', null ]
+628 verbose cache add spec bindings@*
+629 silly cache add args [ 'debug@*', null ]
+630 verbose cache add spec debug@*
+631 silly cache add parsed spec Result {
+631 silly cache add   raw: 'bindings@*',
+631 silly cache add   scope: null,
+631 silly cache add   name: 'bindings',
+631 silly cache add   rawSpec: '*',
+631 silly cache add   spec: '*',
+631 silly cache add   type: 'range' }
+632 silly addNamed bindings@*
+633 verbose addNamed "*" is a valid semver range for bindings
+634 silly addNameRange { name: 'bindings', range: '*', hasData: false }
+635 silly mapToRegistry name bindings
+636 silly mapToRegistry using default registry
+637 silly mapToRegistry registry https://registry.npmjs.org/
+638 silly mapToRegistry data Result {
+638 silly mapToRegistry   raw: 'bindings',
+638 silly mapToRegistry   scope: null,
+638 silly mapToRegistry   name: 'bindings',
+638 silly mapToRegistry   rawSpec: '',
+638 silly mapToRegistry   spec: 'latest',
+638 silly mapToRegistry   type: 'tag' }
+639 silly mapToRegistry uri https://registry.npmjs.org/bindings
+640 verbose addNameRange registry:https://registry.npmjs.org/bindings not in flight; fetching
+641 silly cache add parsed spec Result {
+641 silly cache add   raw: 'debug@*',
+641 silly cache add   scope: null,
+641 silly cache add   name: 'debug',
+641 silly cache add   rawSpec: '*',
+641 silly cache add   spec: '*',
+641 silly cache add   type: 'range' }
+642 silly addNamed debug@*
+643 verbose addNamed "*" is a valid semver range for debug
+644 silly addNameRange { name: 'debug', range: '*', hasData: false }
+645 silly mapToRegistry name debug
+646 silly mapToRegistry using default registry
+647 silly mapToRegistry registry https://registry.npmjs.org/
+648 silly mapToRegistry data Result {
+648 silly mapToRegistry   raw: 'debug',
+648 silly mapToRegistry   scope: null,
+648 silly mapToRegistry   name: 'debug',
+648 silly mapToRegistry   rawSpec: '',
+648 silly mapToRegistry   spec: 'latest',
+648 silly mapToRegistry   type: 'tag' }
+649 silly mapToRegistry uri https://registry.npmjs.org/debug
+650 verbose addNameRange registry:https://registry.npmjs.org/debug not in flight; fetching
+651 verbose request uri https://registry.npmjs.org/bindings
+652 verbose request no auth needed
+653 info attempt registry request try #1 at 4:46:00 PM
+654 verbose etag "8QW29MHCPCE6VJCVI3QVXRJAQ"
+655 http request GET https://registry.npmjs.org/bindings
+656 verbose request uri https://registry.npmjs.org/debug
+657 verbose request no auth needed
+658 info attempt registry request try #1 at 4:46:00 PM
+659 verbose etag "6LHW5GSMWXHBYP757XWQZELW3"
+660 http request GET https://registry.npmjs.org/debug
+661 http 304 https://registry.npmjs.org/bindings
+662 verbose headers { date: 'Thu, 03 Nov 2016 09:45:56 GMT',
+662 verbose headers   via: '1.1 varnish',
+662 verbose headers   'cache-control': 'max-age=300',
+662 verbose headers   etag: '"8QW29MHCPCE6VJCVI3QVXRJAQ"',
+662 verbose headers   age: '168',
+662 verbose headers   connection: 'keep-alive',
+662 verbose headers   'x-served-by': 'cache-hkg6822-HKG',
+662 verbose headers   'x-cache': 'HIT',
+662 verbose headers   'x-cache-hits': '5',
+662 verbose headers   'x-timer': 'S1478166356.788624,VS0,VE0',
+662 verbose headers   vary: 'Accept-Encoding' }
+663 silly get cb [ 304,
+663 silly get   { date: 'Thu, 03 Nov 2016 09:45:56 GMT',
+663 silly get     via: '1.1 varnish',
+663 silly get     'cache-control': 'max-age=300',
+663 silly get     etag: '"8QW29MHCPCE6VJCVI3QVXRJAQ"',
+663 silly get     age: '168',
+663 silly get     connection: 'keep-alive',
+663 silly get     'x-served-by': 'cache-hkg6822-HKG',
+663 silly get     'x-cache': 'HIT',
+663 silly get     'x-cache-hits': '5',
+663 silly get     'x-timer': 'S1478166356.788624,VS0,VE0',
+663 silly get     vary: 'Accept-Encoding' } ]
+664 verbose etag https://registry.npmjs.org/bindings from cache
+665 verbose get saving bindings to C:\Users\anhma\AppData\Roaming\npm-cache\registry.npmjs.org\bindings\.cache.json
+666 verbose correctMkdir C:\Users\anhma\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+667 http 304 https://registry.npmjs.org/debug
+668 verbose headers { date: 'Thu, 03 Nov 2016 09:45:56 GMT',
+668 verbose headers   via: '1.1 varnish',
+668 verbose headers   'cache-control': 'max-age=300',
+668 verbose headers   etag: '"6LHW5GSMWXHBYP757XWQZELW3"',
+668 verbose headers   age: '92',
+668 verbose headers   connection: 'keep-alive',
+668 verbose headers   'x-served-by': 'cache-hkg6822-HKG',
+668 verbose headers   'x-cache': 'HIT',
+668 verbose headers   'x-cache-hits': '6',
+668 verbose headers   'x-timer': 'S1478166356.791678,VS0,VE0',
+668 verbose headers   vary: 'Accept-Encoding' }
+669 silly get cb [ 304,
+669 silly get   { date: 'Thu, 03 Nov 2016 09:45:56 GMT',
+669 silly get     via: '1.1 varnish',
+669 silly get     'cache-control': 'max-age=300',
+669 silly get     etag: '"6LHW5GSMWXHBYP757XWQZELW3"',
+669 silly get     age: '92',
+669 silly get     connection: 'keep-alive',
+669 silly get     'x-served-by': 'cache-hkg6822-HKG',
+669 silly get     'x-cache': 'HIT',
+669 silly get     'x-cache-hits': '6',
+669 silly get     'x-timer': 'S1478166356.791678,VS0,VE0',
+669 silly get     vary: 'Accept-Encoding' } ]
+670 verbose etag https://registry.npmjs.org/debug from cache
+671 verbose get saving debug to C:\Users\anhma\AppData\Roaming\npm-cache\registry.npmjs.org\debug\.cache.json
+672 verbose correctMkdir C:\Users\anhma\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+673 silly addNameRange number 2 { name: 'bindings', range: '*', hasData: true }
+674 silly addNameRange versions [ 'bindings',
+674 silly addNameRange   [ '0.0.1',
+674 silly addNameRange     '0.1.0',
+674 silly addNameRange     '0.1.1',
+674 silly addNameRange     '0.2.0',
+674 silly addNameRange     '0.2.1',
+674 silly addNameRange     '0.2.2',
+674 silly addNameRange     '0.2.3',
+674 silly addNameRange     '0.2.4',
+674 silly addNameRange     '0.3.0',
+674 silly addNameRange     '0.4.0',
+674 silly addNameRange     '1.0.0',
+674 silly addNameRange     '1.1.0',
+674 silly addNameRange     '1.1.1',
+674 silly addNameRange     '1.2.0',
+674 silly addNameRange     '1.2.1' ] ]
+675 silly addNamed bindings@1.2.1
+676 verbose addNamed "1.2.1" is a plain semver version for bindings
+677 silly cache afterAdd bindings@1.2.1
+678 verbose afterAdd C:\Users\anhma\AppData\Roaming\npm-cache\bindings\1.2.1\package\package.json not in flight; writing
+679 verbose correctMkdir C:\Users\anhma\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+680 silly addNameRange number 2 { name: 'debug', range: '*', hasData: true }
+681 silly addNameRange versions [ 'debug',
+681 silly addNameRange   [ '0.0.1',
+681 silly addNameRange     '0.1.0',
+681 silly addNameRange     '0.2.0',
+681 silly addNameRange     '0.3.0',
+681 silly addNameRange     '0.4.0',
+681 silly addNameRange     '0.4.1',
+681 silly addNameRange     '0.5.0',
+681 silly addNameRange     '0.6.0',
+681 silly addNameRange     '0.7.0',
+681 silly addNameRange     '0.7.1',
+681 silly addNameRange     '0.7.2',
+681 silly addNameRange     '0.7.3',
+681 silly addNameRange     '0.7.4',
+681 silly addNameRange     '0.8.0',
+681 silly addNameRange     '0.8.1',
+681 silly addNameRange     '1.0.0',
+681 silly addNameRange     '1.0.1',
+681 silly addNameRange     '1.0.2',
+681 silly addNameRange     '1.0.3',
+681 silly addNameRange     '1.0.4',
+681 silly addNameRange     '2.0.0',
+681 silly addNameRange     '2.1.0',
+681 silly addNameRange     '2.1.1',
+681 silly addNameRange     '2.1.2',
+681 silly addNameRange     '2.1.3',
+681 silly addNameRange     '2.2.0' ] ]
+682 silly addNamed debug@2.2.0
+683 verbose addNamed "2.2.0" is a plain semver version for debug
+684 verbose afterAdd C:\Users\anhma\AppData\Roaming\npm-cache\bindings\1.2.1\package\package.json written
+685 silly cache afterAdd debug@2.2.0
+686 verbose afterAdd C:\Users\anhma\AppData\Roaming\npm-cache\debug\2.2.0\package\package.json not in flight; writing
+687 verbose correctMkdir C:\Users\anhma\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+688 verbose afterAdd C:\Users\anhma\AppData\Roaming\npm-cache\debug\2.2.0\package\package.json written
+689 silly install resolved [ { name: 'bindings',
+689 silly install resolved     description: 'Helper module for loading your native module\'s .node file',
+689 silly install resolved     keywords: [ 'native', 'addon', 'bindings', 'gyp', 'waf', 'c', 'c++' ],
+689 silly install resolved     version: '1.2.1',
+689 silly install resolved     author:
+689 silly install resolved      { name: 'Nathan Rajlich',
+689 silly install resolved        email: 'nathan@tootallnate.net',
+689 silly install resolved        url: 'http://tootallnate.net' },
+689 silly install resolved     repository:
+689 silly install resolved      { type: 'git',
+689 silly install resolved        url: 'git://github.com/TooTallNate/node-bindings.git' },
+689 silly install resolved     main: './bindings.js',
+689 silly install resolved     bugs: { url: 'https://github.com/TooTallNate/node-bindings/issues' },
+689 silly install resolved     homepage: 'https://github.com/TooTallNate/node-bindings',
+689 silly install resolved     license: 'MIT',
+689 silly install resolved     gitHead: 'e404152ee27f8478ccbc7122ee051246e8e5ec02',
+689 silly install resolved     _id: 'bindings@1.2.1',
+689 silly install resolved     scripts: {},
+689 silly install resolved     _shasum: '14ad6113812d2d37d72e67b4cacb4bb726505f11',
+689 silly install resolved     _from: 'bindings@*',
+689 silly install resolved     _npmVersion: '1.4.14',
+689 silly install resolved     _npmUser: { name: 'tootallnate', email: 'nathan@tootallnate.net' },
+689 silly install resolved     maintainers: [ [Object], [Object] ],
+689 silly install resolved     dist:
+689 silly install resolved      { shasum: '14ad6113812d2d37d72e67b4cacb4bb726505f11',
+689 silly install resolved        tarball: 'https://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz' },
+689 silly install resolved     directories: {},
+689 silly install resolved     _resolved: 'https://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz',
+689 silly install resolved     readme: 'ERROR: No README data found!' },
+689 silly install resolved   { name: 'debug',
+689 silly install resolved     version: '2.2.0',
+689 silly install resolved     repository: { type: 'git', url: 'git://github.com/visionmedia/debug.git' },
+689 silly install resolved     description: 'small debugging utility',
+689 silly install resolved     keywords: [ 'debug', 'log', 'debugger' ],
+689 silly install resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+689 silly install resolved     contributors: [ [Object] ],
+689 silly install resolved     license: 'MIT',
+689 silly install resolved     dependencies: { ms: '0.7.1' },
+689 silly install resolved     devDependencies: { browserify: '9.0.3', mocha: '*' },
+689 silly install resolved     main: './node.js',
+689 silly install resolved     browser: './browser.js',
+689 silly install resolved     component: { scripts: [Object] },
+689 silly install resolved     gitHead: 'b38458422b5aa8aa6d286b10dfe427e8a67e2b35',
+689 silly install resolved     bugs: { url: 'https://github.com/visionmedia/debug/issues' },
+689 silly install resolved     homepage: 'https://github.com/visionmedia/debug',
+689 silly install resolved     _id: 'debug@2.2.0',
+689 silly install resolved     scripts: {},
+689 silly install resolved     _shasum: 'f87057e995b1a1f6ae6a4960664137bc56f039da',
+689 silly install resolved     _from: 'debug@*',
+689 silly install resolved     _npmVersion: '2.7.4',
+689 silly install resolved     _nodeVersion: '0.12.2',
+689 silly install resolved     _npmUser: { name: 'tootallnate', email: 'nathan@tootallnate.net' },
+689 silly install resolved     maintainers: [ [Object], [Object] ],
+689 silly install resolved     dist:
+689 silly install resolved      { shasum: 'f87057e995b1a1f6ae6a4960664137bc56f039da',
+689 silly install resolved        tarball: 'https://registry.npmjs.org/debug/-/debug-2.2.0.tgz' },
+689 silly install resolved     directories: {},
+689 silly install resolved     _resolved: 'https://registry.npmjs.org/debug/-/debug-2.2.0.tgz',
+689 silly install resolved     readme: 'ERROR: No README data found!' } ]
+690 info install bindings@1.2.1 into C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\ref
+691 info install debug@2.2.0 into C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\ref
+692 info installOne bindings@1.2.1
+693 verbose installOne of bindings to C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\ref not in flight; installing
+694 verbose correctMkdir C:\Users\anhma\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+695 info installOne debug@2.2.0
+696 verbose installOne of debug to C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\ref not in flight; installing
+697 verbose correctMkdir C:\Users\anhma\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+698 verbose lock using C:\Users\anhma\AppData\Roaming\npm-cache\_locks\bindings-752b90e34e0dd114.lock for C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\ref\node_modules\bindings
+699 verbose lock using C:\Users\anhma\AppData\Roaming\npm-cache\_locks\debug-8471ae23520c733c.lock for C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\ref\node_modules\debug
+700 silly install write writing bindings 1.2.1 to C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\ref\node_modules\bindings
+701 silly install write writing debug 2.2.0 to C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\ref\node_modules\debug
+702 verbose unbuild node_modules\pg\node_modules\ref\node_modules\bindings
+703 verbose unbuild node_modules\pg\node_modules\ref\node_modules\debug
+704 silly gentlyRm C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\ref\node_modules\bindings is being purged from base C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo
+705 verbose gentlyRm don't care about contents; nuking C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\ref\node_modules\bindings
+706 silly gentlyRm C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\ref\node_modules\debug is being purged from base C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo
+707 verbose gentlyRm don't care about contents; nuking C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\ref\node_modules\debug
+708 verbose tar unpack C:\Users\anhma\AppData\Roaming\npm-cache\bindings\1.2.1\package.tgz
+709 verbose tar unpacking to C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\ref\node_modules\bindings
+710 silly gentlyRm C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\ref\node_modules\bindings is being purged
+711 verbose gentlyRm don't care about contents; nuking C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\ref\node_modules\bindings
+712 verbose tar unpack C:\Users\anhma\AppData\Roaming\npm-cache\debug\2.2.0\package.tgz
+713 verbose tar unpacking to C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\ref\node_modules\debug
+714 silly gentlyRm C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\ref\node_modules\debug is being purged
+715 verbose gentlyRm don't care about contents; nuking C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\ref\node_modules\debug
+716 silly gunzTarPerm modes [ '777', '666' ]
+717 silly gunzTarPerm modes [ '777', '666' ]
+718 silly gunzTarPerm extractEntry package.json
+719 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+720 silly gunzTarPerm extractEntry package.json
+721 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+722 silly gunzTarPerm extractEntry README.md
+723 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+724 silly gunzTarPerm extractEntry bindings.js
+725 silly gunzTarPerm modified mode [ 'bindings.js', 420, 438 ]
+726 silly gunzTarPerm extractEntry .npmignore
+727 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+728 silly gunzTarPerm extractEntry node.js
+729 silly gunzTarPerm modified mode [ 'node.js', 420, 438 ]
+730 silly gunzTarPerm extractEntry debug.js
+731 silly gunzTarPerm modified mode [ 'debug.js', 420, 438 ]
+732 silly gunzTarPerm extractEntry browser.js
+733 silly gunzTarPerm modified mode [ 'browser.js', 420, 438 ]
+734 silly gunzTarPerm extractEntry Readme.md
+735 silly gunzTarPerm modified mode [ 'Readme.md', 420, 438 ]
+736 verbose write writing to C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\ref\node_modules\bindings\package.json
+737 info preinstall bindings@1.2.1
+738 verbose readDependencies loading dependencies from C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\ref\node_modules\bindings\package.json
+739 silly gunzTarPerm extractEntry bower.json
+740 silly gunzTarPerm modified mode [ 'bower.json', 420, 438 ]
+741 silly gunzTarPerm extractEntry .jshintrc
+742 silly gunzTarPerm modified mode [ '.jshintrc', 420, 438 ]
+743 verbose readDependencies loading dependencies from C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\ref\node_modules\bindings\package.json
+744 silly install resolved []
+745 verbose about to build C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\ref\node_modules\bindings
+746 info build C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\ref\node_modules\bindings
+747 info linkStuff bindings@1.2.1
+748 silly linkStuff bindings@1.2.1 has C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\ref\node_modules as its parent node_modules
+749 silly gunzTarPerm extractEntry component.json
+750 silly gunzTarPerm modified mode [ 'component.json', 420, 438 ]
+751 silly gunzTarPerm extractEntry Makefile
+752 silly gunzTarPerm modified mode [ 'Makefile', 420, 438 ]
+753 verbose linkBins bindings@1.2.1
+754 verbose linkMans bindings@1.2.1
+755 verbose rebuildBundles bindings@1.2.1
+756 info install bindings@1.2.1
+757 info postinstall bindings@1.2.1
+758 silly gunzTarPerm extractEntry History.md
+759 silly gunzTarPerm modified mode [ 'History.md', 420, 438 ]
+760 verbose unlock done using C:\Users\anhma\AppData\Roaming\npm-cache\_locks\bindings-752b90e34e0dd114.lock for C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\ref\node_modules\bindings
+761 verbose write writing to C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\ref\node_modules\debug\package.json
+762 info preinstall debug@2.2.0
+763 verbose readDependencies loading dependencies from C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\ref\node_modules\debug\package.json
+764 silly prepareForInstallMany adding ms@0.7.1 from debug dependencies
+765 verbose readDependencies loading dependencies from C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\ref\node_modules\debug\package.json
+766 silly cache add args [ 'ms@0.7.1', null ]
+767 verbose cache add spec ms@0.7.1
+768 silly cache add parsed spec Result {
+768 silly cache add   raw: 'ms@0.7.1',
+768 silly cache add   scope: null,
+768 silly cache add   name: 'ms',
+768 silly cache add   rawSpec: '0.7.1',
+768 silly cache add   spec: '0.7.1',
+768 silly cache add   type: 'version' }
+769 silly addNamed ms@0.7.1
+770 verbose addNamed "0.7.1" is a plain semver version for ms
+771 silly mapToRegistry name ms
+772 silly mapToRegistry using default registry
+773 silly mapToRegistry registry https://registry.npmjs.org/
+774 silly mapToRegistry data Result {
+774 silly mapToRegistry   raw: 'ms',
+774 silly mapToRegistry   scope: null,
+774 silly mapToRegistry   name: 'ms',
+774 silly mapToRegistry   rawSpec: '',
+774 silly mapToRegistry   spec: 'latest',
+774 silly mapToRegistry   type: 'tag' }
+775 silly mapToRegistry uri https://registry.npmjs.org/ms
+776 verbose addNameVersion registry:https://registry.npmjs.org/ms not in flight; fetching
+777 verbose request uri https://registry.npmjs.org/ms
+778 verbose request no auth needed
+779 info attempt registry request try #1 at 4:46:00 PM
+780 verbose etag "CABF448LWDL7TCPT73GFSDO9C"
+781 http request GET https://registry.npmjs.org/ms
+782 http 304 https://registry.npmjs.org/ms
+783 verbose headers { date: 'Thu, 03 Nov 2016 09:45:56 GMT',
+783 verbose headers   via: '1.1 varnish',
+783 verbose headers   'cache-control': 'max-age=300',
+783 verbose headers   etag: '"CABF448LWDL7TCPT73GFSDO9C"',
+783 verbose headers   age: '254',
+783 verbose headers   connection: 'keep-alive',
+783 verbose headers   'x-served-by': 'cache-hkg6822-HKG',
+783 verbose headers   'x-cache': 'HIT',
+783 verbose headers   'x-cache-hits': '13',
+783 verbose headers   'x-timer': 'S1478166356.885576,VS0,VE0',
+783 verbose headers   vary: 'Accept-Encoding' }
+784 silly get cb [ 304,
+784 silly get   { date: 'Thu, 03 Nov 2016 09:45:56 GMT',
+784 silly get     via: '1.1 varnish',
+784 silly get     'cache-control': 'max-age=300',
+784 silly get     etag: '"CABF448LWDL7TCPT73GFSDO9C"',
+784 silly get     age: '254',
+784 silly get     connection: 'keep-alive',
+784 silly get     'x-served-by': 'cache-hkg6822-HKG',
+784 silly get     'x-cache': 'HIT',
+784 silly get     'x-cache-hits': '13',
+784 silly get     'x-timer': 'S1478166356.885576,VS0,VE0',
+784 silly get     vary: 'Accept-Encoding' } ]
+785 verbose etag https://registry.npmjs.org/ms from cache
+786 verbose get saving ms to C:\Users\anhma\AppData\Roaming\npm-cache\registry.npmjs.org\ms\.cache.json
+787 verbose correctMkdir C:\Users\anhma\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+788 silly cache afterAdd ms@0.7.1
+789 verbose afterAdd C:\Users\anhma\AppData\Roaming\npm-cache\ms\0.7.1\package\package.json not in flight; writing
+790 verbose correctMkdir C:\Users\anhma\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+791 verbose afterAdd C:\Users\anhma\AppData\Roaming\npm-cache\ms\0.7.1\package\package.json written
+792 silly install resolved [ { name: 'ms',
+792 silly install resolved     version: '0.7.1',
+792 silly install resolved     description: 'Tiny ms conversion utility',
+792 silly install resolved     repository: { type: 'git', url: 'git://github.com/guille/ms.js.git' },
+792 silly install resolved     main: './index',
+792 silly install resolved     devDependencies: { mocha: '*', 'expect.js': '*', serve: '*' },
+792 silly install resolved     component: { scripts: [Object] },
+792 silly install resolved     gitHead: '713dcf26d9e6fd9dbc95affe7eff9783b7f1b909',
+792 silly install resolved     bugs: { url: 'https://github.com/guille/ms.js/issues' },
+792 silly install resolved     homepage: 'https://github.com/guille/ms.js',
+792 silly install resolved     _id: 'ms@0.7.1',
+792 silly install resolved     scripts: {},
+792 silly install resolved     _shasum: '9cd13c03adbff25b65effde7ce864ee952017098',
+792 silly install resolved     _from: 'ms@0.7.1',
+792 silly install resolved     _npmVersion: '2.7.5',
+792 silly install resolved     _nodeVersion: '0.12.2',
+792 silly install resolved     _npmUser: { name: 'rauchg', email: 'rauchg@gmail.com' },
+792 silly install resolved     maintainers: [ [Object] ],
+792 silly install resolved     dist:
+792 silly install resolved      { shasum: '9cd13c03adbff25b65effde7ce864ee952017098',
+792 silly install resolved        tarball: 'https://registry.npmjs.org/ms/-/ms-0.7.1.tgz' },
+792 silly install resolved     directories: {},
+792 silly install resolved     _resolved: 'https://registry.npmjs.org/ms/-/ms-0.7.1.tgz',
+792 silly install resolved     readme: 'ERROR: No README data found!' } ]
+793 info install ms@0.7.1 into C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\ref\node_modules\debug
+794 info installOne ms@0.7.1
+795 verbose installOne of ms to C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\ref\node_modules\debug not in flight; installing
+796 verbose correctMkdir C:\Users\anhma\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+797 verbose lock using C:\Users\anhma\AppData\Roaming\npm-cache\_locks\ms-679c48475f0641b0.lock for C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\ref\node_modules\debug\node_modules\ms
+798 silly install write writing ms 0.7.1 to C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\ref\node_modules\debug\node_modules\ms
+799 verbose unbuild node_modules\pg\node_modules\ref\node_modules\debug\node_modules\ms
+800 silly gentlyRm C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\ref\node_modules\debug\node_modules\ms is being purged from base C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo
+801 verbose gentlyRm don't care about contents; nuking C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\ref\node_modules\debug\node_modules\ms
+802 verbose tar unpack C:\Users\anhma\AppData\Roaming\npm-cache\ms\0.7.1\package.tgz
+803 verbose tar unpacking to C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\ref\node_modules\debug\node_modules\ms
+804 silly gentlyRm C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\ref\node_modules\debug\node_modules\ms is being purged
+805 verbose gentlyRm don't care about contents; nuking C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\ref\node_modules\debug\node_modules\ms
+806 silly gunzTarPerm modes [ '777', '666' ]
+807 silly gunzTarPerm extractEntry package.json
+808 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+809 silly gunzTarPerm extractEntry .npmignore
+810 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+811 silly gunzTarPerm extractEntry README.md
+812 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+813 silly gunzTarPerm extractEntry LICENSE
+814 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+815 silly gunzTarPerm extractEntry index.js
+816 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+817 silly gunzTarPerm extractEntry History.md
+818 silly gunzTarPerm modified mode [ 'History.md', 420, 438 ]
+819 verbose write writing to C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\ref\node_modules\debug\node_modules\ms\package.json
+820 info preinstall ms@0.7.1
+821 verbose readDependencies loading dependencies from C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\ref\node_modules\debug\node_modules\ms\package.json
+822 verbose readDependencies loading dependencies from C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\ref\node_modules\debug\node_modules\ms\package.json
+823 silly install resolved []
+824 verbose about to build C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\ref\node_modules\debug\node_modules\ms
+825 info build C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\ref\node_modules\debug\node_modules\ms
+826 info linkStuff ms@0.7.1
+827 silly linkStuff ms@0.7.1 has C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\ref\node_modules\debug\node_modules as its parent node_modules
+828 verbose linkBins ms@0.7.1
+829 verbose linkMans ms@0.7.1
+830 verbose rebuildBundles ms@0.7.1
+831 info install ms@0.7.1
+832 info postinstall ms@0.7.1
+833 verbose unlock done using C:\Users\anhma\AppData\Roaming\npm-cache\_locks\ms-679c48475f0641b0.lock for C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\ref\node_modules\debug\node_modules\ms
+834 verbose about to build C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\ref\node_modules\debug
+835 info build C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\ref\node_modules\debug
+836 info linkStuff debug@2.2.0
+837 silly linkStuff debug@2.2.0 has C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\ref\node_modules as its parent node_modules
+838 verbose linkBins debug@2.2.0
+839 verbose linkMans debug@2.2.0
+840 verbose rebuildBundles debug@2.2.0
+841 verbose rebuildBundles [ 'ms' ]
+842 info install debug@2.2.0
+843 info postinstall debug@2.2.0
+844 verbose unlock done using C:\Users\anhma\AppData\Roaming\npm-cache\_locks\debug-8471ae23520c733c.lock for C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\ref\node_modules\debug
+845 verbose about to build C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\ref
+846 info build C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\ref
+847 info linkStuff ref@0.1.3
+848 silly linkStuff ref@0.1.3 has C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules as its parent node_modules
+849 verbose linkBins ref@0.1.3
+850 verbose linkMans ref@0.1.3
+851 verbose rebuildBundles ref@0.1.3
+852 verbose rebuildBundles [ 'bindings', 'debug' ]
+853 info install ref@0.1.3
+854 verbose unsafe-perm in lifecycle true
+855 info ref@0.1.3 Failed to exec install script
+856 verbose unlock done using C:\Users\anhma\AppData\Roaming\npm-cache\_locks\ref-4d590b14e5bb4dc5.lock for C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\ref
+857 verbose about to build C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg
+858 verbose unlock done using C:\Users\anhma\AppData\Roaming\npm-cache\_locks\pg-c52a8c572bb3d8b7.lock for C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg
+859 verbose stack Error: ref@0.1.3 install: `node-gyp rebuild`
+859 verbose stack Exit status 1
+859 verbose stack     at EventEmitter.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:217:16)
+859 verbose stack     at emitTwo (events.js:87:13)
+859 verbose stack     at EventEmitter.emit (events.js:172:7)
+859 verbose stack     at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:24:14)
+859 verbose stack     at emitTwo (events.js:87:13)
+859 verbose stack     at ChildProcess.emit (events.js:172:7)
+859 verbose stack     at maybeClose (internal/child_process.js:829:16)
+859 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+860 verbose pkgid ref@0.1.3
+861 verbose cwd C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo
+862 error Windows_NT 10.0.14393
+863 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+864 error node v4.6.0
+865 error npm  v2.15.9
+866 error code ELIFECYCLE
+867 error ref@0.1.3 install: `node-gyp rebuild`
+867 error Exit status 1
+868 error Failed at the ref@0.1.3 install script 'node-gyp rebuild'.
+868 error This is most likely a problem with the ref package,
+868 error not with npm itself.
+868 error Tell the author that this fails on your system:
+868 error     node-gyp rebuild
+868 error You can get information on how to open an issue for this project with:
+868 error     npm bugs ref
+868 error Or if that isn't available, you can get their info via:
+868 error
+868 error     npm owner ls ref
+868 error There is likely additional logging output above.
+869 verbose exit [ 1, true ]
+870 verbose unbuild node_modules\pg\node_modules\ref
+871 info preuninstall ref@0.1.3
+872 info uninstall ref@0.1.3
+873 verbose unbuild rmStuff ref@0.1.3 from C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules
+874 verbose unbuild rmStuff in C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules
+875 info postuninstall ref@0.1.3
+876 silly gentlyRm C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\ref is being purged from base C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo
+877 verbose gentlyRm don't care about contents; nuking C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\ref
+878 silly vacuum-fs purging C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules\ref
+879 silly vacuum-fs quitting because other entries in C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg\node_modules
+880 verbose unbuild node_modules\pg
+881 info preuninstall pg@2.0.0
+882 info uninstall pg@2.0.0
+883 verbose unbuild rmStuff pg@2.0.0 from C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules
+884 info postuninstall pg@2.0.0
+885 silly gentlyRm C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg is being purged from base C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo
+886 verbose gentlyRm don't care about contents; nuking C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg
+887 silly vacuum-fs purging C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules\pg
+888 silly vacuum-fs quitting because other entries in C:\Users\anhma\Downloads\ProjectDaifugo\ProjectDaifugo\node_modules
